@@ -52,3 +52,6 @@ vi:
       log_in: "Đăng nhập"
       new_user: "Tài khoản mới?"
       sign_up_now: "Đăng kí ngay!"
+      remember_me: "Ghi nhớ tôi"
+      remember_me_computer : "Ghi nhớ tôi trên máy tính"
+

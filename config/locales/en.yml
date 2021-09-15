@@ -52,3 +52,20 @@ en:
       book_help: "To get help on this sample app, see the"
       get_help_link: "Rails Tutorial help page"
       book_help_link: "Ruby on Rails Tutorial Book"
+  users:
+    new:
+      sign_up: "Sign Up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation Password"
+      submit: "Submit"
+    show:
+      user_not_found: "User not found"
+      welcome_home: "Welcome to Sample App"
+  shared:
+    error_message:
+      the_form_contains: "The form contains"
+      error:
+        one: "%{count} error"
+        other: "%{count} errors"

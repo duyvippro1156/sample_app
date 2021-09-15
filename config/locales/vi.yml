@@ -22,3 +22,20 @@ vi:
       book_help: "Để nhận sự trợ giúp của sample app này,vui lòng xem tại"
       get_help_link: "Rails Tutorial help page"
       book_help_link: "Ruby on Rails Tutorial Book"
+  users:
+    new:
+      sign_up: "Đăng kí"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      submit: "Đăng kí"
+    show:
+      user_not_found: "Không tìm thấy user"
+      welcome_home: "Chào mừng đến với Sample App"
+  shared:
+    error_message:
+      the_form_contains: "Biểu mẫu này có"
+      error:
+        one: "%{count} lỗi"
+        other: "%{count} lỗi"

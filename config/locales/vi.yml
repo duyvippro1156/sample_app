@@ -1,0 +1,24 @@
+
+vi:
+  title: "Hướng dẫn ứng dụng Ruby on Rails cơ bản"
+  english: "Tiếng Anh"
+  vietname: "Tiếng Việt"
+  layouts:
+    header:
+      logo: "Sample App"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng nhập"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      title: "Chào mừng đến với Sample App"
+      head: "Đây là trang chủ"
+      tutorial: "Ruby on Rails Tutorial"
+      sign_up: "Đăng kí ngay !"
+    help:
+      help: "Trợ giúp"
+      get_help: "Nhận sự trợ giúp của Ruby on Rails Tutorial tại"
+      book_help: "Để nhận sự trợ giúp của sample app này,vui lòng xem tại"
+      get_help_link: "Rails Tutorial help page"
+      book_help_link: "Ruby on Rails Tutorial Book"

@@ -9,6 +9,10 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       log_in: "Đăng nhập"
+      account: "Tài khoản"
+      profile: "Hồ sơ cá nhân"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
   static_pages:
     home:
       home: "Trang chủ"
@@ -39,3 +43,12 @@ vi:
       error:
         one: "%{count} lỗi"
         other: "%{count} lỗi"
+  sessions:
+    create:
+      invalid_email_password_combination : "Sai email hoặc mật khẩu"
+    new:
+      email: "Email"
+      password: "Mật khẩu"
+      log_in: "Đăng nhập"
+      new_user: "Tài khoản mới?"
+      sign_up_now: "Đăng kí ngay!"

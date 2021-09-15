@@ -1,4 +1,6 @@
 validate:
   length:
-    max_45: 45
+    max_255: 255
     min_6: 6
+show_limit:
+  show_5: 5

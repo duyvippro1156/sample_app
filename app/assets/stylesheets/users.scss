@@ -39,3 +39,15 @@ input, textarea, select, .uneditable-input {
 input {
   height: auto
 }
+h1 {
+  text-align: center;
+}
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+  }
+}

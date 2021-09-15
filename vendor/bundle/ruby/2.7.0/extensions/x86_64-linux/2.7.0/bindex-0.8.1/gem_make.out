@@ -1,0 +1,15 @@
+current directory: /home/duymai/Desktop/rails/sample_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/home/duymai/.rbenv/versions/2.7.0/bin/ruby -I /home/duymai/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20210915-39798-1wujbdu.rb extconf.rb
+creating Makefile
+
+current directory: /home/duymai/Desktop/rails/sample_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/duymai/Desktop/rails/sample_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/duymai/Desktop/rails/sample_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20210915-39798-p0avs3/skiptrace/internal

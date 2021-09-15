@@ -1,11 +1,17 @@
-
 vi:
   title: "Hướng dẫn ứng dụng Ruby on Rails cơ bản"
   english: "Tiếng Anh"
   vietname: "Tiếng Việt"
+  views:
+    pagination:
+      first: "« ĐẦU"
+      last: "CUỐI »"
+      previous: "‹ TRƯỚC"
+      next: "SAU ›"
+      truncate: "…"
   layouts:
     header:
-      logo: "Sample App"
+      logo: "Ứng dụng mẫu"
       home: "Trang chủ"
       help: "Trợ giúp"
       log_in: "Đăng nhập"
@@ -13,6 +19,8 @@ vi:
       profile: "Hồ sơ cá nhân"
       settings: "Cài đặt"
       log_out: "Đăng xuất"
+      users: "Người dùng"
+      language: "Ngôn ngữ"
   static_pages:
     home:
       home: "Trang chủ"
@@ -27,16 +35,31 @@ vi:
       get_help_link: "Rails Tutorial help page"
       book_help_link: "Ruby on Rails Tutorial Book"
   users:
+    welcome_home: "Chào mừng đến với Sample App"
+    profile_updated: "Hồ sơ cá nhân đã cập nhật"
+    user_not_found: "Không tìm thấy user"
+    deleted: "Người dùng đã bị xóa"
+    delete_fail: "Xóa thất bại!"
+    please_login: "Đăng nhập tài khoản của bạn"
+    denied_destroy: "Từ chối hủy"
+    account_activated: "Tài khoản đã được kích hoạt!"
+    invalid_activate_link: "Link kích hoạt không hợp lệ"
+    check_email_activated: "Kiểm tra email kích hoạt tài khoản"
+    welcome_and_activate: "Chào mừng đến với Sample App! Bấm vào link để kích hoạt tài khoản của bạn"
+    click_active: "Kích hoạt"
+    index:
+      all_users : "Danh sách người dùng"
     new:
       sign_up: "Đăng kí"
+      submit_create: "Đăng kí tài khoản"
+    edit:
+      submit_change: "Lưu thay đổi"
+      edit_title: "Cập nhật hồ sơ cá nhân"
+    form:
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
-      submit: "Đăng kí"
-    show:
-      user_not_found: "Không tìm thấy user"
-      welcome_home: "Chào mừng đến với Sample App"
   shared:
     error_message:
       the_form_contains: "Biểu mẫu này có"
@@ -44,14 +67,29 @@ vi:
         one: "%{count} lỗi"
         other: "%{count} lỗi"
   sessions:
-    create:
-      invalid_email_password_combination : "Sai email hoặc mật khẩu"
+    login_success: "Đăng nhập thành công"
+    invalid_email_password_combination : "Sai email hoặc mật khẩu"
+    not_activated: "Tài khoản chưa được kích hoạt"
+    send_email: "Email được gửi để đặt lại mật khẩu"
+    invalid_user: "Quyền truy cập bị từ chối"
     new:
       email: "Email"
       password: "Mật khẩu"
+      forgot_password: "(Quên mật khẩu)"
       log_in: "Đăng nhập"
       new_user: "Tài khoản mới?"
       sign_up_now: "Đăng kí ngay!"
       remember_me: "Ghi nhớ tôi"
       remember_me_computer : "Ghi nhớ tôi trên máy tính"
-
+  password_resets:
+    forgot: "Quên mật khẩu"
+    submit: "Xác nhận"
+    reset_pass: "Tạo lại mật khẩu"
+    update_pass: "Cập nhật mật khẩu"
+    reset_expired: "Đặt lại mật khẩu đã hết hạn."
+    pass_empty: "Không được để trống"
+    password_reset_success: "Cập nhật mật khẩu thành công"
+  email:
+    link: "Bấm vào link để reset mật khẩu"
+    expire: "Link khả dụng trong 2 giờ"
+    ignore: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."

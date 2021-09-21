@@ -1,0 +1,4 @@
+validate:
+  length:
+    max_45: 45
+    min_6: 6

@@ -39,6 +39,10 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log Out"
   static_pages:
     home:
       home: "Home"
@@ -69,3 +73,12 @@ en:
       error:
         one: "%{count} error"
         other: "%{count} errors"
+  sessions:
+    create:
+      invalid_email_password_combination : "Invalid email or password"
+    new:
+      email: "Email"
+      password: "Password"
+      log_in: "Log In"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
